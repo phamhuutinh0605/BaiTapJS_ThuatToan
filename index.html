@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <form class="px-5">
+            <h1>Bài tập 1</h1>
+            <h3>Tổng các số dương trong mảng</h3>
+            <div class="form-group">
+                <input type="number" class="form-control" id="num1" placeholder="">
+            </div>
+            <button id="btnSum" type="button" class="btn btn-primary">Sum</button>
+            <button id="btnAdd" type="button" class="btn btn-success">Add</button>
+            <div>
+                <p id="txtResult1"></p>
+            </div>
+        </form>
+    </section>
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 2</h1>
+            <h3>Đếm Số Dương Trong Mảng</h3>
+            <button id="btnCount" type="button" class="btn btn-success">Count</button>
+            <div>
+                <p id="txtResult2"></p>
+            </div>
+        </form>
+    </section>
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 3</h1>
+            <h3>Tìm Số Nhỏ Nhất</h3>
+            <button id="btnFind" type="button" class="btn btn-danger">Find</button>
+            <div>
+                <p id="txtResult3"></p>
+            </div>
+        </form>
+    </section>
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 4</h1>
+            <h3>Tìm Số Dương Nhỏ Nhất</h3>
+            <button id="btnFindMin" type="button" class="btn btn-dark">Find</button>
+            <div>
+                <p id="txtResult4"></p>
+            </div>
+        </form>
+    </section>
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 5</h1>
+            <h3>Tìm Số Chẵn Cuối Cùng</h3>
+            <button id="btnFindChanCuoi" type="button" class="btn btn-info">Find</button>
+            <div>
+                <p id="txtResult5"></p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 6</h1>
+            <h3>Đổi Chỗ Hai Vị Trí</h3>
+            <div class="form-group">
+                <input type="number" class="form-control" id="numIndex1" placeholder="Vị trí 1">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="numIndex2" placeholder="Vị trí 2">
+            </div>
+            <button id="btnChange" type="button" class="btn btn-warning">Change</button>
+            <div>
+                <p id="txtResult6"></p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 7</h1>
+            <h3>Sắp Xếp Mảng Tăng Dần</h3>
+            <button id="btnSort" type="button" class="btn btn-success">Sort</button>
+            <div>
+                <p id="txtResult7"></p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 8</h1>
+            <h3>Tìm Số Nguyên Tố Đầu Tiên</h3>
+            <button id="btnSNT" type="button" class="btn btn-danger">Find</button>
+            <div>
+                <p id="txtResult8"></p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 9</h1>
+            <h3>Đếm Có Bao Nhiêu Số Nguyên</h3>
+            <div class="form-group">
+                <input type="number" class="form-control" id="numN" placeholder="">
+            </div>
+            <button id="btnCountN" type="button" class="btn btn-success">Count</button>
+            <button id="btnAddN" type="button" class="btn btn-dark">Add</button>
+            <div>
+                <p id="txtResultAdd"></p>
+            </div>
+            <div>
+                <p id="txtResultCount"></p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="py-5 px-5">
+            <h1>Bài tập 10</h1>
+            <h3>So Sánh Tống Số Dương Và Tổng Số Âm</h3>
+            <button id="btnCompare" type="button" class="btn btn-info">Compare</button>
+            <div>
+                <p id="txtResult10"></p>
+            </div>
+        </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
